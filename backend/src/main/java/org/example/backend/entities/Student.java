@@ -11,7 +11,7 @@ import lombok.*;
 @AllArgsConstructor @Getter @Setter @ToString @Builder
 public class Student {
     @Id
-    private Long id;
+    private String id;
     private String firstname;
     private String lastname;
     private String email;
