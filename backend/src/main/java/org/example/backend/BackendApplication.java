@@ -60,7 +60,7 @@ public class BackendApplication {
                             .date(LocalDate.now())
                             .amount(100 + random.nextInt(10000))
                             .type(payementTypes[index])
-                            .method(PayementStatus.CREATED)
+                            .status(PayementStatus.CREATED)
                             .student(student)
                             .build();
                     payementRepository.save(payement);

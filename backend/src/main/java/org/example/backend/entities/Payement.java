@@ -13,7 +13,7 @@ public class Payement {
     private LocalDate date;
     private double amount;
     private PayementType type;
-    private PayementStatus method;
+    private PayementStatus status;
     private String file ;
     @ManyToOne
     private Student student;
